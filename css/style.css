@@ -117,3 +117,101 @@ body {
   opacity: 1;
 }
 
+.user-about {
+  min-height: 475px;
+
+  background-color: #ffffff;
+}
+
+.main-contayner {
+  width: 940px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+h2 {
+  padding: 0;
+  margin: 78px 0 0 0;
+
+  font-size: 3rem;
+  line-height: 1em;
+  font-weight: 500;
+
+  color: #212121;
+}
+
+.h2-description {
+  margin: 20px 0 0 0;
+
+  font-size: 1.5rem;
+  line-height: 1em;
+  font-weight: 300;
+
+  color: #727272;
+}
+
+.about-item {
+  position: relative;
+
+  float: left;
+  width: 460px;
+  padding-left: 160px;
+  margin: 42px 20px 0 0;
+  box-sizing: border-box;
+
+  text-align: left;
+}
+
+.about-item::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+  width: 140px;
+  height: 140px;
+
+  background-color: transparent;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.about-item-hello::before {
+  background-image: url("../img/about-hello.svg");
+}
+
+.about-item-experience::before {
+  background-image: url("../img/about-experience.svg");
+}
+
+.about-item:last-child {
+  margin-right: 0;
+}
+
+.about-item h3 {
+  margin: 0 0 14px 0;
+
+  font-size: 1.5rem;
+  line-height: 1em;
+  font-weight: 400;
+
+  color: #212121;
+}
+
+.about-item p {
+  padding: 0;
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-weight: 300;
+
+  color: #727272;
+}
+
+.about-item a {
+  color: #03a9f4;
+}
