@@ -72,13 +72,48 @@ body {
   line-height: 1em;
   font-weight: 400;
 
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
 
 .user-social {
   float: right;
   padding: 0;
-  margin: 0;
+  margin: 17px 0 0 0;
+
+  font-size: 0;
+
+  list-style: none;
+}
+
+.user-social li {
+  display: inline-block;
+  margin-right: 20px;
+
+  vertical-align: middle;
+}
+
+.user-social li:last-child {
+  margin-right: 0;
+}
+
+.social-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.social-link-vk {
+  width: 37px;
+  height: 21px;
+}
+
+.social-link svg path {
+  opacity: 0.7;
+}
+
+.social-link:hover svg path,
+.social-link:active svg path {
+  opacity: 1;
 }
 
