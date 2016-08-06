@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+
+  background-color: #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-main {
+  min-height: 90px;
+  padding: 13px 0;
+  box-sizing: border-box;
+
+  background-color: #8cc34b;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-contayner {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.user-block {
+  float: left;
+  width: 400px;
+}
+
+.user-avatar {
+  display: block;
+  float: left;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+
+  border-radius: 50%;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 50%;
+}
+
+.user-profile {
+  float: left;
+  padding-left: 19px;
+}
+
+.user-name {
+  padding: 12px 0 7px;
+  margin: 0;
+
+  font-size: 1.5rem;
+  line-height: 1em;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+.user-email {
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 400;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.user-social {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
