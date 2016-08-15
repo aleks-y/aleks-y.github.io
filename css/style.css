@@ -55,10 +55,10 @@ body {
 
 .header-main {
   position: relative;
-  
+
   width: 100%;
   min-height: 90px;
-  padding: 13px 0;
+  padding: 14px 0;
   box-sizing: border-box;
 
   background-color: #8cc34b;
@@ -66,7 +66,7 @@ body {
 }
 
 .header-contayner {
-  width: 1140px;
+  width: 1144px;
   margin: 0 auto;
 }
 
@@ -78,8 +78,8 @@ body {
 .user-avatar {
   display: block;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 62px;
+  height: 62px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
 
@@ -95,23 +95,23 @@ body {
 
 .user-profile {
   float: left;
-  padding-left: 19px;
+  padding: 0 0 0 18px;
 }
 
 .user-name {
-  padding: 12px 0 7px;
+  padding: 10px 0 5px 0;
   margin: 0;
 
-  font-size: 1.5rem;
-  line-height: 1em;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 500;
 
   color: #ffffff;
 }
 
 .user-email {
-  font-size: 1rem;
-  line-height: 1em;
+  font-size: 14px;
+  line-height: 14px;
   font-weight: 400;
 
   color: rgba(255, 255, 255, 0.7);
@@ -124,8 +124,8 @@ body {
 
 .user-social {
   float: right;
-  padding: 0;
-  margin: 17px 0 0 0;
+  padding: 0 3px 0 0;
+  margin: 16px 0 0 0;
 
   font-size: 0;
 
@@ -166,7 +166,7 @@ body {
 .user-about {
   width: 100%;
   min-height: 200px;
-  padding: 78px 0;
+  padding: 75px 0 75px 0;
 
   background-color: #ffffff;
 }
@@ -183,18 +183,18 @@ h2 {
   padding: 0;
   margin: 0;
 
-  font-size: 3rem;
-  line-height: 1em;
+  font-size: 42px;
+  line-height: 42px;
   font-weight: 500;
 
   color: #212121;
 }
 
 .h2-description {
-  margin: 20px 0 45px 0;
+  margin: 20px 0 41px 0;
 
-  font-size: 1.5rem;
-  line-height: 1em;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 300;
 
   color: #727272;
@@ -241,10 +241,10 @@ h2 {
 }
 
 .about-item h3 {
-  margin: 0 0 14px 0;
+  margin: 0 0 11px 0;
 
-  font-size: 1.5rem;
-  line-height: 1em;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 400;
 
   color: #212121;
@@ -254,8 +254,8 @@ h2 {
   padding: 0;
   margin: 0;
 
-  font-size: 1rem;
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 300;
 
   color: #727272;
@@ -268,12 +268,16 @@ h2 {
 .courses {
   width: 100%;
   min-height: 500px;
-  padding: 80px 0 152px 0;
+  padding: 76px 0 131px 0;
   box-sizing: border-box;
 
   font-size: 0;
 
   background: #f8f8f5 url("../img/pattern-triangle.png") left top repeat;
+}
+
+.courses .h2-description {
+  margin: 20px 0 45px 0;
 }
 
 .cours-item {
@@ -317,38 +321,46 @@ h2 {
 }
 
 .cours-description {
-  padding: 0 21px 20px;
+  padding: 19px 20px 14px 20px;
   box-sizing: border-box;
 }
 
 .cours-name {
   padding: 0;
-  margin-bottom: 15px;
+  margin: 0 0 9px 0;
 
-  font-size: 1.5rem;
-  line-height: 1.14em;
+  font-size: 21px;
+  line-height: 23px;
   font-weight: 400;
+  vertical-align: top;
 
   color: #212121;
 }
 
 .cours-annotation {
   padding: 0;
-  margin: 0 0 12px 0;
+  margin: 0 0 10px 0;
 
-  font-size: 1rem;
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 300;
 
   color: #727272;
 }
 
 .cours-duration {
-  font-size: 1rem;
-  line-height: 1.5em;
+  padding: 0;
+  margin: 0px 0 0 0;
+
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 300;
 
   color: #b6b6b6;
+}
+
+.icon-clock {
+  text-align: left;
 }
 
 .course-status {
@@ -372,7 +384,7 @@ h2 {
 .course-status label {
   position: relative;
 
-  padding-left: 40px;
+  padding-left: 38px;
 }
 
 .course-status label::before {
@@ -436,10 +448,23 @@ h2 {
   padding: 0;
   margin: 0;
 
-  font-size: 1rem;
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   text-align: center;
 
   color: rgba(255, 255, 255, 0.5);
+}
+
+.pixel {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  width: 1200px;
+  height: 1874px;
+
+  background: transparent url("../test.jpg") center top no-repeat;
+  opacity: 0.5;
+  transform: translateX(-50%);
 }
