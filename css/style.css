@@ -302,6 +302,12 @@ h2 {
   margin-right: 0;
 }
 
+.course-block {
+  display: block;
+
+  text-decoration: none;
+}
+
 .cours-image {
   position: relative;
 }
@@ -312,6 +318,7 @@ h2 {
   position: absolute;
   left: 0;
   bottom: 0;
+  z-index: 10;
 
   display: none;
   width: 100%;
@@ -321,13 +328,13 @@ h2 {
 }
 
 .cours-description {
-  padding: 19px 20px 14px 20px;
+  padding: 0 20px 14px 20px;
   box-sizing: border-box;
 }
 
 .cours-name {
   padding: 0;
-  margin: 0 0 9px 0;
+  margin: 19px 0 9px 0;
 
   font-size: 21px;
   line-height: 23px;
@@ -363,6 +370,14 @@ h2 {
   text-align: left;
 }
 
+.course-block:hover .cours-image::after {
+  display: block;
+}
+
+.course-block:hover .cours-name {
+  color: #8cc34b;
+}
+
 .course-status {
   width: 100%;
   min-height: 60px;
@@ -385,6 +400,8 @@ h2 {
   position: relative;
 
   padding-left: 38px;
+
+  cursor: pointer;
 }
 
 .course-status label::before {
@@ -456,7 +473,7 @@ h2 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.pixel {
+/*.pixel {
   position: absolute;
   top: 0;
   left: 50%;
@@ -468,3 +485,4 @@ h2 {
   opacity: 0.5;
   transform: translateX(-50%);
 }
+*/
